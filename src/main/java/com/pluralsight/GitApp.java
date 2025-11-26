@@ -9,5 +9,11 @@ public class GitApp {
         System.out.println("- git commit -m 'commit message inside double quotes' ");
         System.out.println("- git remote add origin [url]");
         System.out.println("- git push origin main");
+
+        System.out.println("=== Ongoing Workflow === ");
+        System.out.println("update (edit, add, or delete) code");
+        System.out.println(" - git add . ");
+        System.out.println(" - git commit -m 'commit message inside double quotes' ");
+        System.out.println(" - git push origin main");
     }
 }
