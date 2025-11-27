@@ -19,5 +19,17 @@ public class GitApp {
         System.out.println("/n === Verification ===");
         System.out.println(" - git status");
         System.out.println(" - git log --oneline ");
+
+        System.out.println("/n === Branching ===");
+        System.out.println(" 1. create a branch ");
+        System.out.println(" - git branch [branch name]");
+        System.out.println(" 2. switch to branch ");
+        System.out.println(" - git checkout [branch name]");
+        System.out.println("              OR         ");
+        System.out.println(" - git switch [branch name]");
+        System.out.println("--- Steps 1 & 2 can be done with one command: ");
+        System.out.println(" - git checkout -b [branch name] ");
+        System.out.println(" - git switch -c [branch name]");
+        
     }
 }
